@@ -7,21 +7,24 @@
           <span class="icon ti-layout-grid3-alt"></span>
         </button>
 
-        <a class="navbar-brand" href="#">
-          <img class="navbar-brand-media-light" src="{{"/assets/img/site-header-logo-light.png" | prepend:baseurl}}" alt="">
-          <img class="navbar-brand-media-dark" src="{{"/assets/img/site-header-logo-dark.png" | prepend:baseurl}}" alt="">
+        <a class="navbar-brand" href="/index">
+          <img class="navbar-brand-media-dark" src="{{"/assets/img/logo-labmet.png" | prepend:baseurl}}" alt="">
         </a>
       </div> <!-- .navbar-header -->
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a data-smooth-scroll="true" href="#home">Home</a></li>
-          <li><a data-smooth-scroll="true" href="#feature1">Features</a></li>
-          <li><a data-smooth-scroll="true" href="#screenshot">Screenshot</a></li>
-          <li><a data-smooth-scroll="true" href="#pricing">Pricing</a></li>
-          <li><a data-smooth-scroll="true" href="#download">Download</a></li>
-          <li><a data-smooth-scroll="true" href="#contact">Contact</a></li>
-          <li><button class="navbar-btn btn btn-theme-2 popup-inline" type="button" data-mfp-src="#popupForm">Subscribe</button></li>
+          <li class="button"><a href="/index"><h3>Home</h3></a></li>
+          <li><a href="/about"><h3>Sobre</h3></a></li>
+          <li><a href="/docs"><h3>Dúvidas Frequentes</h3></a></li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><h3>Dados</h3></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/data/public"><h3>Públicos</h3></a></li>
+                  <li><a href="/data/private"><h3>Privados</h3></a></li>
+                </ul>
+          <li><a href="/contact"><h3>Contato</h3></a></li>
+          <li><button class="navbar-btn btn btn-theme-2 popup-inline" type="button" data-mfp-src="#popupForm"><h3>Login<h3></button></li>
         </ul>
       </div> <!-- .navbar-collapse -->
     </div>
