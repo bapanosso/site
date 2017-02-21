@@ -1,21 +1,140 @@
-title: LabMet
-email: contato@labmet.com.br
-author: labmet
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: ""
 url: "http://localhost:4000"
 twitter_username: labmetoficial
 github_username:  lab804
-markdown: kramdown
-theme: minima
+title: LabMet
+copyright: Copyright © 2017 LabMet.
+dir: All Rights Reserved.
+subtitle: Criado por pesquisadores. Testado por agrônomos. Aprovado por produtores.
+prod: Produzido por
+by: Lab804
+email: contato@labmet.com.br
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 exclude:
   - Gemfile
-  - Gemfile.lock
+  - Gemfile.lock O projeto LabMet é uma plataforma tecnológica de precisão e de fácil compreensão, com embasamento técnico, teórico e científico, que visa desenvolver um sistema de apoio aos agricultores, gestores agrícolas e pesquisadores, capaz de sanar as principais lacunas existentes nas ferramentas disponíveis atualmente no mercado. Este sistema tem por objetivo auxiliar nas tomadas de decisões gerenciais das principais culturas agrícolas do país.
   - .DS_Store
+people:
+- name: Bárbara Panosso
+  pic: 1
+  position: EMBEDDED DEVELOPER
+  social:
+    - title: linkedin
+      url: https://br.linkedin.com/in/barbarapanosso
+    - title: facebook
+      url: https://pt-br.facebook.com/barbara.panosso
+    - title: github
+      url: https://github.com/bapanosso
+
+- name: João Trevizolli
+  pic: 2
+  position: CEO
+  social:
+    - title: linkedin
+      url: https://br.linkedin.com/in/jtesteves
+    - title: facebook
+      url: https://www.facebook.com/joao.trevizoliesteves
+    - title: github
+      url: https://github.com/joaoTrevizoli
+
+- name: Murilo Ijanc'
+  pic: 3
+  position: SOFTWARE ENGINEER
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/murilo-ijanc-789517136?authType=NAME_SEARCH&authToken=GwBA
+    - title: facebook
+      url: https://www.facebook.com/ijanc
+    - title: github
+      url: https://github.com/murilobsd
+social:
+  - title: icon ti-twitter-alt
+    url: http://twitter.com/labmetoficial
+  - title: icon ti-facebook
+    url: www.facebook.com.br/labmetoficial
+  - title: icon ti-linkedin
+    url: http://linkedin.com/labmetoficial
+  - title: icon ti-github
+    url: http://github.com/lab804
+address:
+  - Rua Barão do Rio Branco, 585
+  - Sala 705 / 7 Andar
+  - Jaboticabal/Sp
+phone:
+  - (16) 3209 0000
+  - (16) 9999 9999
+markdown: kramdown
+permalink: pretty
+whatwedo:
+  - Projetado para produtores e gestores agrícolas, a <b>LabMet</b> entrega dados estruturados e precisos para a tomada de decisão.
+  - São mais de estações espelhadas pelo Brasil. Em um único ambiente, de forma simples e momentâneos, entregamos os dados. Você também pode ter dados da sua propriedade rural adquirindo nossas estações que foram feitas com carinho para voce.
+
+about:
+  - Nossa missão é entregar dados meteorológicos mais precisos para produtores e gestores agrícolas, de forma simples, rápida e segura.
+  - Nós acreditamos que os dados são a base para tudo. A LabMet quer trazer isto até você, com a maior qualidade e confiabilidade possível, a fim de conduzir você nas tomadas de decisão que irão interferir diretamente na sua pradução, desde o âmbito financeiro e produtivo até sustentável.
+press:
+  - O projeto LabMet é uma plataforma tecnológica de precisão e de fácil compreensão, com embasamento técnico, teórico e científico, que visa desenvolver um sistema de apoio aos agricultores, gestores agrícolas e pesquisadores, capaz de sanar as principais lacunas existentes nas ferramentas disponíveis atualmente no mercado. Este sistema tem por objetivo auxiliar nas tomadas de decisões gerenciais das principais culturas agrícolas do país.
+team:
+  - A nossa equipe possui engenheiros agrônomos que sabem o valor que estes dados têm e ajudam a todo momento.
+sub-team: Nosso time é o melhor no que faz!
+sub-history:
+  - Breve intro
+history:
+  - position: noinverted
+    pic: 4
+    title: Quarto post
+    about: Ola mundo 4
+    month: Abr
+    year: 2004
+
+  - position:
+    pic: 3
+    title: Terceiro post
+    about: Ola mundo 3
+    month: Mar
+    year: 2003
+
+  - position: noinverted
+    pic: 2
+    title: Segundo post
+    about: Ola mundo 2
+    month: Fev
+    year: 2002
+
+  - position:
+    pic: 1
+    title: Primeiro post
+    about: Ola mundo
+    month: Jan
+    year: 2001
+presslab:
+  - modal-id: www.facebook.com.br
+    pic: 4
+    title: Quarto post
+    month: Abr
+    year: 2004
+
+  - modal-id: www.facebook.com.br
+    pic: 3
+    title: Terceiro post
+    month: Mar
+    year: 2003
+
+  - modal-id: www.facebook.com.br2
+    pic: 2
+    title: Segundo post
+    month: Fev
+    year: 2002
+
+  - modal-id: www.facebook.com.br
+    pic: 1
+    title: Primeiro post
+    month: Jan
+    year: 2001
