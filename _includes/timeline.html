@@ -1,0 +1,58 @@
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Nossa História</h2>
+                <h3 class="section-subheading text-muted">{{ site.sub-history}}</h3>
+            </div>
+        </div>
+        {% for item in site.history %}
+        <article>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                  {% if item.position == null %}
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="/imgs/about/1.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{item.month}},{{item.year}}</h4>
+                                <h4 class="subheading">{{item.title}}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">{{item.about}}</p>
+                            </div>
+                        </div>
+                    </li>
+                    {% else %}
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="/imgs/about/{{ item.pic }}.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{item.month}},{{item.year}}</h4>
+                                <h4 class="subheading">{{item.title}}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">{{item.about}}</p>
+                            </div>
+                        </div>
+                    </li>
+                    {% endif %}
+                    <br></br>
+                    {% endfor %}
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="/imgs/about/1.png" alt="">
+                        </div>
+                    </li>
+                    <br></br>
+                </ul>
+            </div>
+        </div>
+      </article>
+    </div>
+</section>
