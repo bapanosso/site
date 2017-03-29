@@ -66,10 +66,10 @@ social:
     url: http://github.com/lab804
 address:
   - Rua Barão do Rio Branco, 585 - Sala 705
+city:
   - Jaboticabal/SP
 phone:
   - (16) 3209 0000
-  - (16) 9999 9999
 markdown: kramdown
 permalink: pretty
 whatwedo:

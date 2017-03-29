@@ -108,7 +108,7 @@ fieldset {
  * ---------------------------------------------------------
  */
 body {
-  line-height: 1.714285714285714;
+  line-height: 5;
   background-color: #fff;
   color: #222;
   font-size: 0.875rem;
@@ -685,13 +685,13 @@ html:not(.ie9):not(.is-mobile) .text-animate {
  * ---------------------------------------------------------
  */
 .title-row {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
 .section-title {
   line-height: 1.333333333333333;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   font-size: 2.25rem;
   font-weight: 300;
 }
@@ -704,7 +704,7 @@ html:not(.ie9):not(.is-mobile) .text-animate {
 }
 
 h2.section-title {
-  line-height: 1.375;
+  line-height: 5rem;
   font-size: 2rem;
 }
 
@@ -2103,12 +2103,12 @@ h2.section-title {
  */
 .site-footer-top-section {
   padding-top: 5rem;
-  background-color: #0a0a0a;
+  background-color: #222;
 }
 @media (min-width: 992px) {
   .site-footer-top-section {
-    padding-top: 6.25rem;
-    padding-bottom: 3.125rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0rem;
   }
 }
 .site-footer-top-section .section-title {
@@ -2121,8 +2121,8 @@ h2.section-title {
 }
 
 .site-footer-bottom-section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #222;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -2188,11 +2188,13 @@ h2.section-title {
   padding-left: 0;
   list-style: none;
   margin-bottom: 0.75rem;
+  margin-bottom: -1rem;
 }
 .site-footer-bottom-social-list > li {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  line-height: 0;
 }
 .site-footer-bottom-social-list > li > a {
   color: rgba(255, 255, 255, 0.5);

@@ -2,9 +2,19 @@
   <div id="siteFooterTop" class="site-footer-top-section">
     <div class="container">
       <div class="site-footer-top-row row">
-        <div class="site-footer-top-col col-sm-8 col-sm-offset-2">
+        <div class="site-footer-bottom-left-col col-md-6">
+          <div class="site-footer-brand">
+          {{site.title}}<br><span>{{site.subtitle}}</span>
+        <!-- <div class="site-footer-top-col col-sm-8 col-sm-offset-2">
           <h2 class="section-title"><b>{{site.title}}</b><p>{{site.subtitle}}</h2>
             <br></br>
+        </div> -->
+          </div>
+        </div>
+        <div class="site-footer-bottom-right-col col-md-6">
+          <div class="site-footer-brand">
+          <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><span>&nbsp;{{site.address}}<br>{{site.city}}</span><br>
+          <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><span>&nbsp;&nbsp;{{site.phone}}</span>
         </div>
       </div>
     </div>
@@ -29,12 +39,12 @@
         </div>
 
         <div class="site-footer-bottom-right-col col-md-6">
+          <div class="site-footer-bottom-copyright">{{site.copyright}}&nbsp;{{site.dir}}</div>
           <ul class="site-footer-bottom-social-list">
             {% for social in site.social %}
             <li><a href="http://{{social.url}}" target="_blank"><span class="{{social.title}}"></span></a>
             {% endfor %}</li>
             </ul>
-          <div class="site-footer-bottom-copyright">{{site.copyright}}&nbsp;{{site.dir}}</div>
         </div>
       </div>
     </div>
