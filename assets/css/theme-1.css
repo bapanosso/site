@@ -1822,7 +1822,7 @@ h2.section-title {
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #2a7af3;
+  background-color: #52B3A6;
   color: #fff;
   margin-right: 1rem;
   -webkit-border-radius: 0.125rem;
@@ -2686,8 +2686,8 @@ input[type="checkbox"]:focus {
   padding: 0.4375rem 0.75rem;
   font-size: 0.875rem;
   line-height: 1.714285714285714;
-  background-color: #f8f9fb;
-  color: #212121;
+  background-color: #FFF;
+  color: #222;
   border-width: 0.0625rem;
   border-color: rgba(0, 0, 0, 0.12);
   -webkit-border-radius: 0.125rem;
