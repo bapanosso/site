@@ -2,14 +2,11 @@
   <div class="container">
     <div class="contact-title-row row">
       <div class="contact-title-col col-sm-8 col-sm-offset-2">
-        <br></br>
-        <h4 class="section-title"><b>LabMet</b> Contato</h4>
+        <h4 class="section-title"><br><b>LabMet</b> Contato</h4>
         <h3><p class="section-title">{{site.contintro}}</p></h3>
       </div>
     </div>
   </div>
-
-  <div id="map-canvas" class="map-canvas"></div> <!-- content map -->
 
     <div class="container">
       <div class="contact-content-row row">
@@ -55,42 +52,40 @@
             <ul class="media-list">
               <li class="media">
                 <div class="media-left">
-                  <img class="media-object" src="/imgs/empresa/local.png" alt="">
+                  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                  <!-- <img class="media-object" src="/imgs/empresa/local.png" alt=""> -->
                 </div>
                 <div class="media-body">
                   <h4 class="media-heading">Localização</h4>
-                     <p><h4>{% for line in site.address %}
+                  <h6>{% for line in site.address %}
                             {{ line }}
-                                {% endfor %}</h4>
-                      </p>
+                                {% endfor %}</h6>
                 </div>
               </li>
 
               <li class="media">
-                <br></br>
                 <div class="media-left">
-                  <img class="media-object" src="/imgs/empresa/phone.png" alt="">
+                  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                  <!-- <img class="media-object" src="/imgs/empresa/phone.png" alt=""> -->
                 </div>
                 <div class="media-body">
                   <h4 class="media-heading">Telefone</h4>
-                  <p><h4>{% for line in site.phone %}
-                         {{ line }}<br>
-                             {% endfor %}</h4>
-                   </p>
+                  <h6>{% for line in site.phone %}
+                         {{ line }}
+                             {% endfor %}</h6>
                 </div>
               </li>
 
               <li class="media">
-                <br></br>
                 <div class="media-left">
-                  <img class="media-object" src="/imgs/empresa/at.png" alt="">
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  <!-- <img class="media-object" src="/imgs/empresa/at.png" alt=""> -->
                 </div>
                 <div class="media-body">
                   <h4 class="media-heading">Email</h4>
-                  <p><h4>{% for line in site.email %}
+                  <h6>{% for line in site.email %}
                          {{ line }}
-                             {% endfor %}</h4>
-                   </p>
+                             {% endfor %}</h6>
                 </div>
               </li>
             </ul>
@@ -98,4 +93,5 @@
         </div>
       </div>
     </div>
+            <div id="map-canvas" class="map-canvas"></div> <!-- content map -->
   </div> <!-- #contact -->
