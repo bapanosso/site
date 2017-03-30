@@ -154,7 +154,7 @@ ol:not(.navbar-nav):last-child,
 ul:not(.navbar-nav):last-child,
 pre:not(.navbar-nav):last-child,
 blockquote:not(.navbar-nav):last-child {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 .icon {
@@ -2121,14 +2121,14 @@ h2.section-title {
 }
 
 .site-footer-bottom-section {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 1rem;
   background-color: #222;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .site-footer-bottom-border {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   border-top: 0.0625rem solid rgba(255, 255, 255, 0.12);
 }
 
@@ -2186,15 +2186,14 @@ h2.section-title {
 
 .site-footer-bottom-social-list {
   padding-left: 0;
+  padding-top: 0;
   list-style: none;
-  margin-bottom: 0.75rem;
   margin-bottom: -1rem;
 }
 .site-footer-bottom-social-list > li {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  line-height: 0;
 }
 .site-footer-bottom-social-list > li > a {
   color: rgba(255, 255, 255, 0.5);

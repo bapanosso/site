@@ -28,25 +28,25 @@
           <div class="site-footer-brand">
             <span>{{site.prod}}&nbsp;</span>{{site.by}}
           </div>
-
-          <div class="site-footer-bottom-info">
-            <ul>
-              <li><a href="#" class="popup-inline" data-mfp-src="#termsOfService">Terms of Service</a></li>
-              <li><a href="#" class="popup-inline" data-mfp-src="#privacyPolicy">Privacy Policy</a></li>
-              <li><a href="#" class="popup-inline" data-mfp-src="#acceptableUsePolicy">Acceptable Use Policy</a></li>
-            </ul>
-          </div>
+        <div class="site-footer-bottom-copyright">{{site.copyright}}&nbsp;{{site.dir}}</div>
         </div>
 
         <div class="site-footer-bottom-right-col col-md-6">
-          <div class="site-footer-bottom-copyright">{{site.copyright}}&nbsp;{{site.dir}}</div>
           <ul class="site-footer-bottom-social-list">
             {% for social in site.social %}
             <li><a href="http://{{social.url}}" target="_blank"><span class="{{social.title}}"></span></a>
             {% endfor %}</li>
             </ul>
+            <!-- <div class="site-footer-bottom-info">
+              <ul>
+                <li><a href="#" class="popup-inline" data-mfp-src="#termsOfService">Terms of Service</a></li>
+                <li><a href="#" class="popup-inline" data-mfp-src="#privacyPolicy">Privacy Policy</a></li>
+                <li><a href="#" class="popup-inline" data-mfp-src="#acceptableUsePolicy">Acceptable Use Policy</a></li>
+              </ul>
+            </div> -->
         </div>
       </div>
     </div>
-  </div> <!-- #siteFooterBottom -->
+    </div>
+  </div> <!-- #siteFooterBottom -->  
 </footer>
